@@ -975,17 +975,17 @@
         </div>
     </section>
 
-    <!-- Whitepaper Section -->
-    <section id="whitepaper">
-        <h2 class="section-title">The Sacred Scrolls</h2>
-        <div class="whitepaper">
-            <div class="whitepaper-content">
-                <p>Our official whitepaper details the complete vision, technology, and future plans for Samurai Token. Discover the depth of our project and understand how we're combining traditional samurai values with modern blockchain technology.</p>
-                <p>The whitepaper covers our tokenomics, roadmap, utility, and the philosophical foundation that makes Samurai Token a unique project in the crypto space.</p>
-                <a href="#" class="whitepaper-button">Read Whitepaper</a>
-            </div>
+   <!-- Whitepaper Section -->
+<section id="whitepaper">
+    <h2 class="section-title">The Sacred Scrolls</h2>
+    <div class="whitepaper">
+        <div class="whitepaper-content">
+            <p>Our official whitepaper details the complete vision, technology, and future plans for Samurai Token. Discover the depth of our project and understand how we're combining traditional samurai values with modern blockchain technology.</p>
+            <p>The whitepaper covers our tokenomics, roadmap, utility, and the philosophical foundation that makes Samurai Token a unique project in the crypto space.</p>
+            <a href="https://us.docworkspace.com/d/sIAD14ZRKiIesxgY?sa=601.1074" class="whitepaper-button" target="_blank">Read Whitepaper</a>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Community Section -->
     <section id="community">
@@ -1097,24 +1097,23 @@
                 chatbotInput.value = '';
                 
                 // Simulate AI response
-                setTimeout(() => {
-                    let response = '';
-                    
-                    if (message.toLowerCase().includes('what') && message.toLowerCase().includes('samurai')) {
-                        response = 'Samurai Token is a community-driven cryptocurrency inspired by the values of the samurai - honor, loyalty, discipline, and perseverance.';
-                    } else if (message.toLowerCase().includes('tokenomics') || message.toLowerCase().includes('supply')) {
-                        response = 'Samurai Token has a total supply of 1,000,000,000 tokens. Distribution: 40% Community, 25% Liquidity, 20% Ecosystem, 10% Team, 5% Reserve.';
-                    } else if (message.toLowerCase().includes('buy') || message.toLowerCase().includes('where')) {
-                        response = 'The contract address will be released soon. Stay tuned to our official channels for updates!';
-                    } else if (message.toLowerCase().includes('roadmap') || message.toLowerCase().includes('plan')) {
-                        response = 'Our roadmap has 4 phases: 1. Genesis, 2. Expansion, 3. Consolidation, 4. Digital Shogunate. Each phase brings new utilities and expansions.';
-                    } else if (message.toLowerCase().includes('nft')) {
-                        response = 'Samurai NFTs are planned for Phase 2! They will represent digital samurai warriors with unique traits and benefits.';
-                    } else if (message.toLowerCase().includes('whitepaper')) {
-                        response = 'The official Samurai Token whitepaper details our complete vision, technology, and future plans. Click the "Whitepaper" section to learn more.';
-                    } else {
-                        response = 'Thank you for your interest in Samurai Token. For more specific information, please check our official documentation or ask our community.';
-                    }
+        setTimeout(() => {
+            let response = '';
+            
+            if (message.toLowerCase().includes('what') && message.toLowerCase().includes('samurai')) {
+                response = 'Samurai Token is a community-driven cryptocurrency inspired by the values of the samurai - honor, loyalty, discipline, and perseverance.';
+            } else if (message.toLowerCase().includes('tokenomics') || message.toLowerCase().includes('supply')) {
+                response = 'Samurai Token has a total supply of 1,000,000,000 tokens. Distribution: 40% Community, 25% Liquidity, 20% Ecosystem, 10% Team, 5% Reserve.';
+            } else if (message.toLowerCase().includes('buy') || message.toLowerCase().includes('where')) {
+                response = 'The contract address will be released soon. Stay tuned to our official channels for updates!';
+            } else if (message.toLowerCase().includes('roadmap') || message.toLowerCase().includes('plan')) {
+                response = 'Our roadmap has 4 phases: 1. Genesis, 2. Expansion, 3. Consolidation, 4. Digital Shogunate. Each phase brings new utilities and expansions.';
+            } else if (message.toLowerCase().includes('nft')) {
+                response = 'Samurai NFTs are planned for Phase 2! They will represent digital samurai warriors with unique traits and benefits.';
+            } else if (message.toLowerCase().includes('whitepaper') || message.toLowerCase().includes('documentation')) {
+                response = 'You can read our complete whitepaper by clicking the "Whitepaper" section or using this direct link: https://us.docworkspace.com/d/sIAD14ZRKiIesxgY?sa=601.1074';
+            } else {
+                response = 'Thank you for your interest in Samurai Token. For more specific information, please check our official documentation or ask our community.';
                     
                     addMessage(response);
                 }, 1000);
